@@ -12,7 +12,7 @@ Compara cuatro algoritmos (XGBoost, regresión logística con penalización elas
 
 ## Datos
 
-Los datos clínicos y de imagen proceden del Hospital Universitario Virgen del Rocío (HUVR) y se obtuvieron a través de EUCAIM. **No se publican** por tratarse de datos de pacientes. Por ello:
+Los datos clínicos y de imagen proceden del Hospital Universitario Virgen del Rocío (HUVR), obtenidos en el marco del proyecto de EUCAIM. **No se publican** por tratarse de datos de pacientes. Por ello:
 
 - Los notebooks 01 y 02 documentan cómo se construye la matriz final a partir de los datos originales, pero no pueden ejecutarse sin ellos.
 - Los notebooks 05 a 07 y las gráficas necesitan `results/X_full.csv` y `results/y_full.csv` (generados por el notebook 02), que tampoco se incluyen.
