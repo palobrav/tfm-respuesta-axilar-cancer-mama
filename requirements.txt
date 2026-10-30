@@ -1,0 +1,12 @@
+# Sustituye este contenido por la salida de `pip freeze` filtrada (ver instrucciones).
+# Lista mínima de librerías usadas por los notebooks:
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+tabpfn
+shap
+matplotlib
+joblib
+jupyterlab
