@@ -1,0 +1,5 @@
+Modelo,AUC (Media ± Desv),Sensibilidad (Media ± Desv),Especificidad (Media ± Desv),n_semillas
+Regresión Logística,0.8644 (±0.0054),0.8120 (±0.0218),0.7874 (±0.0062),5
+TabPFN,0.8618 (±0.0065),0.7160 (±0.0209),0.8177 (±0.0092),5
+Random Forest,0.8476 (±0.0075),0.6120 (±0.0237),0.8283 (±0.0060),5
+XGBoost,0.8168 (±0.0091),0.6866 (±0.0309),0.7931 (±0.0090),5

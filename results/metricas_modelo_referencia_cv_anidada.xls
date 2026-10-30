@@ -1,0 +1,6 @@
+Métrica,Media,DT,n,DT entre
+AUC-ROC,0.859,0.144,50,folds (50)
+Exactitud,0.784,0.033,5,repeticiones
+Precisión,0.66,0.043,5,repeticiones
+Sensibilidad,0.8,0.052,5,repeticiones
+Especificidad,0.775,0.036,5,repeticiones

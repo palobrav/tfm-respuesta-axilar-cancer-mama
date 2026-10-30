@@ -1,0 +1,13 @@
+,importancia_media_abs_SHAP
+HER2 (presence)_positive,0.16461958074602492
+Systemic therapy breast response (RECIST)_partial response,0.08001510038469013
+Delta SUV max,0.0430852214106858
+N,0.0346838221204654
+Age at diagnosis,0.0332197616555177
+platino,0.030610820429074134
+Systemic therapy axillar response (RECIST)_partial response,0.02678454770739037
+Tumor histology_ductal,0.023461648267305107
+T,0.019988106999216992
+SUV max (at diagnosis),0.019909142236102146
+ciclos_platino,0.01901683586861778
+Delta MTV,0.012295104126686985

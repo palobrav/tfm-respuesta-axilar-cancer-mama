@@ -1,0 +1,4 @@
+Clasico,AUC_clasico,AUC_TabPFN,dif_(clasico-TabPFN),IC95_NB_inf,IC95_NB_sup,p_Wilcoxon,p_NadeauBengio,pct_folds_clasico_gana,p_Wilcoxon_Holm,p_NadeauBengio_Holm,Conclusion
+"XGBoost (optimizado, selección anidada)",0.848,0.864,-0.0157,-0.075,0.0436,0.21458962821333694,0.5977962457780444,20.0,0.6437688846400108,1.0,No significativa
+"Regresión Logística (optimizado, selección anidada)",0.859,0.864,-0.0049,-0.0672,0.0574,0.8509720230776999,0.8753615127928462,30.0,1.0,1.0,No significativa
+"Random Forest (optimizado, selección anidada)",0.863,0.864,-0.0009,-0.0409,0.0391,0.8174233809957825,0.9645370528654722,24.0,1.0,1.0,No significativa

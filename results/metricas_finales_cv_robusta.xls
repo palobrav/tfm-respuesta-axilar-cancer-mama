@@ -1,0 +1,5 @@
+Modelo,AUC-ROC_media,AUC-ROC_std,Sensibilidad_media,Sensibilidad_std,Especificidad_media,Especificidad_std,Precisión_media,Precisión_std,Exactitud_media,Exactitud_std
+XGBoost,0.82,0.143,0.633,0.277,0.793,0.196,0.683,0.274,0.737,0.151
+Regresión Logística,0.867,0.136,0.82,0.202,0.79,0.19,0.72,0.217,0.802,0.153
+Random Forest,0.853,0.148,0.607,0.272,0.842,0.187,0.72,0.291,0.76,0.151
+TabPFN,0.87,0.155,0.7,0.277,0.841,0.19,0.721,0.282,0.792,0.161

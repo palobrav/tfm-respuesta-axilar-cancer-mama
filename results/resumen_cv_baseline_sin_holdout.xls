@@ -1,0 +1,5 @@
+Modelo,AUC_media,AUC_std
+XGBoost,0.82,0.143
+Regresión Logística (ElasticNet),0.867,0.136
+Random Forest,0.851,0.143
+TabPFN,0.873,0.136

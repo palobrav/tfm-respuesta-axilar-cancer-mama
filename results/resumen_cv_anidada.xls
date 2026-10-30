@@ -1,0 +1,8 @@
+Modelo,AUC_media,AUC_std,n_evaluaciones
+XGBoost (selección anidada),0.818,0.152,50
+Regresión Logística (selección anidada),0.868,0.14,50
+Random Forest (selección anidada),0.852,0.136,50
+"XGBoost (optimizado, selección anidada)",0.848,0.134,50
+"Regresión Logística (optimizado, selección anidada)",0.859,0.144,50
+"Random Forest (optimizado, selección anidada)",0.863,0.133,50
+TabPFN (selección anidada),0.864,0.148,50

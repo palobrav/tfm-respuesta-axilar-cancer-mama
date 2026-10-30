@@ -1,0 +1,17 @@
+Age at diagnosis
+Size of primary lesion
+T
+N
+SUV max (at diagnosis)
+Delta SUV max
+Delta MTV
+antraciclina
+ciclos_antraciclina
+platino
+ciclos_platino
+Tumor histology_ductal
+HER2 (presence)_positive
+ER (presence)_positive
+Ki-67_low
+Systemic therapy breast response (RECIST)_partial response
+Systemic therapy axillar response (RECIST)_partial response

@@ -1,0 +1,6 @@
+variable,n_si,shap_si,shap_no,efecto
+HER2 (presence)_positive,27,-0.259,0.121,-0.38
+platino,21,-0.062,0.02,-0.082
+Systemic therapy axillar response (RECIST)_partial response,23,0.049,-0.018,0.068
+Tumor histology_ductal,76,0.013,-0.111,0.124
+Systemic therapy breast response (RECIST)_partial response,42,0.081,-0.079,0.16

@@ -1,0 +1,18 @@
+,importancia_media_XGBoost,pct_folds_seleccionada
+HER2 (presence)_positive,0.2499239179491997,100.0
+platino,0.2048150511085987,94.0
+Systemic therapy breast response (RECIST)_partial response,0.06387021027505398,100.0
+Systemic therapy axillar response (RECIST)_partial response,0.06092436838895082,96.0
+ciclos_platino,0.05843658063560724,82.0
+SUV max (at diagnosis),0.05141436137259006,100.0
+N,0.050840283539146186,94.0
+Delta SUV max,0.04792612329125404,96.0
+T,0.04706369264051318,94.0
+Tumor histology_ductal,0.04089913982897997,78.0
+Age at diagnosis,0.03703895464539528,94.0
+Delta MTV,0.03339772328734398,82.0
+Size of primary lesion,0.025676920283585786,56.00000000000001
+Ki-67_low,0.019235776197165252,28.000000000000004
+ER (presence)_positive,0.008390656765550375,6.0
+ciclos_antraciclina,0.0001462370902299881,0.0
+antraciclina,0.0,0.0

@@ -1,0 +1,36 @@
+Modelo,evaluacion,tp,fn,tn,fp
+XGBoost (selección anidada),0,22,8,43,12
+XGBoost (selección anidada),1,20,10,41,14
+XGBoost (selección anidada),2,19,11,43,12
+XGBoost (selección anidada),3,16,14,44,11
+XGBoost (selección anidada),4,20,10,43,12
+Regresión Logística (selección anidada),0,24,6,42,13
+Regresión Logística (selección anidada),1,24,6,45,10
+Regresión Logística (selección anidada),2,21,9,43,12
+Regresión Logística (selección anidada),3,24,6,46,9
+Regresión Logística (selección anidada),4,24,6,42,13
+Random Forest (selección anidada),0,21,9,47,8
+Random Forest (selección anidada),1,21,9,45,10
+Random Forest (selección anidada),2,18,12,45,10
+Random Forest (selección anidada),3,18,12,44,11
+Random Forest (selección anidada),4,20,10,45,10
+"XGBoost (optimizado, selección anidada)",0,21,9,40,15
+"XGBoost (optimizado, selección anidada)",1,22,8,39,16
+"XGBoost (optimizado, selección anidada)",2,22,8,40,15
+"XGBoost (optimizado, selección anidada)",3,23,7,41,14
+"XGBoost (optimizado, selección anidada)",4,22,8,40,15
+"Regresión Logística (optimizado, selección anidada)",0,25,5,41,14
+"Regresión Logística (optimizado, selección anidada)",1,25,5,45,10
+"Regresión Logística (optimizado, selección anidada)",2,21,9,41,14
+"Regresión Logística (optimizado, selección anidada)",3,24,6,45,10
+"Regresión Logística (optimizado, selección anidada)",4,25,5,41,14
+"Random Forest (optimizado, selección anidada)",0,22,8,46,9
+"Random Forest (optimizado, selección anidada)",1,20,10,43,12
+"Random Forest (optimizado, selección anidada)",2,18,12,45,10
+"Random Forest (optimizado, selección anidada)",3,18,12,44,11
+"Random Forest (optimizado, selección anidada)",4,21,9,45,10
+TabPFN (selección anidada),0,21,9,45,10
+TabPFN (selección anidada),1,24,6,46,9
+TabPFN (selección anidada),2,19,11,46,9
+TabPFN (selección anidada),3,20,10,44,11
+TabPFN (selección anidada),4,20,10,45,10
