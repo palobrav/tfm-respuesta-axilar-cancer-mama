@@ -1,0 +1,12 @@
+data/
+results/X_full.csv
+results/y_full.csv
+results/dataset_modelado.csv
+results/tabla_clinica_agregada.csv
+models/
+*.pkl
+*.joblib
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
