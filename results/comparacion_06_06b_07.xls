@@ -1,5 +1,0 @@
-Modelo,AUC_06_baseline_todas_vars,AUC_06b_media_entre_semillas,AUC_06b_std_entre_semillas,AUC_07_seleccion_anidada,AUC_07_optimizado
-XGBoost,0.82,0.8168,0.0091,0.818,0.848
-Regresión Logística,0.867,0.8644,0.0054,0.868,0.859
-Random Forest,0.851,0.8476,0.0075,0.852,0.863
-TabPFN,0.873,0.8618,0.0065,0.864,
