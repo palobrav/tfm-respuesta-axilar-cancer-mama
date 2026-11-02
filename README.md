@@ -12,10 +12,10 @@ Compara cuatro algoritmos (XGBoost, regresión logística con penalización elas
 
 ## Datos
 
-Los datos clínicos y de imagen proceden del Hospital Universitario Virgen del Rocío (HUVR), obtenidos en el marco del proyecto de EUCAIM. **No se publican** por tratarse de datos de pacientes. Por ello:
+Los datos clínicos y de imagen proceden del Hospital Universitario Virgen del Rocío (HUVR) y se obtuvieron a través de EUCAIM. **No se publican** por tratarse de datos de pacientes. Por ello:
 
 - Los notebooks 01 y 02 documentan cómo se construye la matriz final a partir de los datos originales, pero no pueden ejecutarse sin ellos.
-- Los notebooks 05 a 07 y las gráficas necesitan `results/X_full.csv` y `results/y_full.csv` (generados por el notebook 02), que tampoco se incluyen.
+- Los notebooks 03 a 06 y las gráficas necesitan `results/X_full.csv` y `results/y_full.csv` (generados por el notebook 02), que tampoco se incluyen.
 - Sí se incluye `results/` con los resultados agregados (métricas, AUC por fold, tests estadísticos, hiperparámetros), de modo que se pueden consultar y se puede regenerar el notebook `GRAFICAS` a partir de los CSV de resultados que lee.
 
 ## Notebooks y orden de ejecución
@@ -26,17 +26,17 @@ Ejecutar en este orden, con los notebooks en la raíz del repositorio (usan las 
 |---|---|---|---|
 | 1 | `01_agregacion_clinica.ipynb` | Agregación a una fila por paciente y definición de la cohorte | `tabla_clinica_agregada.csv` |
 | 2 | `02_dataset_predictores.ipynb` | Selección de predictores, variable objetivo, análisis exploratorio y matriz final | `dataset_modelado.csv`, `X_full.csv`, `y_full.csv` |
-| 3 | `05_modelado_baseline.ipynb` | Evaluación de referencia (CV repetida 10×5) | resumen de AUC y modelos entrenados |
-| 4 | `06_evaluacion_final.ipynb` | Métricas por CV y predicciones fuera de muestra | `metricas_finales_cv_robusta.csv`, matrices de confusión |
-| 5 | `06b_robustez_semillas.ipynb` | Robustez frente a la semilla de partición (5 semillas) | `robustez_semillas_detalle.csv` |
-| 6 | `07_validacion_cruzada_anidada.ipynb` | Validación anidada, comparación con TabPFN, modelo de referencia y SHAP | tablas, figuras y `modelo_referencia.pkl` |
-| 7 | `GRAFICAS.ipynb` | Figuras de resumen de los notebooks 06, 06b y 07 | figuras de comparación de modelos |
+| 3 | `03_modelado_baseline.ipynb` | Evaluación de referencia (CV repetida 10×5) | resumen de AUC y modelos entrenados |
+| 4 | `04_evaluacion_final.ipynb` | Métricas por CV y predicciones fuera de muestra | `metricas_finales_cv_robusta.csv`, matrices de confusión |
+| 5 | `05_robustez_semillas.ipynb` | Robustez frente a la semilla de partición (5 semillas) | `robustez_semillas_detalle.csv` |
+| 6 | `06_validacion_cruzada_anidada.ipynb` | Validación anidada, comparación con TabPFN, modelo de referencia y SHAP | tablas, figuras y `modelo_referencia.pkl` |
+| 7 | `GRAFICAS.ipynb` | Figuras de resumen de los notebooks 04, 05 y 06 | figuras de comparación de modelos |
 
-Tiempos aproximados: el notebook 07 tarda unos 30 minutos (50 folds externos con búsqueda de hiperparámetros y TabPFN). El resto es rápido, salvo TabPFN en los notebooks 05, 06 y 06b.
+Tiempos aproximados: el notebook 06 tarda unos 30 minutos (50 folds externos con búsqueda de hiperparámetros y TabPFN). El resto es rápido, salvo TabPFN en los notebooks 03, 04 y 05.
 
 ## Instalación
 
-Se usó Python 3.13. Con un entorno virtual:
+Probado con Python 3.13.9. Con un entorno virtual:
 
 ```
 python -m venv .venv
